@@ -1,0 +1,30 @@
+#page{
+ width: 960px ;
+ border-width: 4px double #000000;
+ padding: 20px;
+ margin top: 10px;
+ margin left: auto;
+ margin bottom:10px;
+ margin right: auto
+ }
+ #logo{ 
+ width: 303px;
+ margin: 10px auto 25px;
+ }
+ ol{
+width: 625px;
+border: 2px 0px 1px 0px;
+border-style: solid;
+border-color: #000000;
+padding: 15px;
+margin: 0px auto;
+display: inline;
+}
+p{
+width: 600px;
+margin: 20px auto;
+}
+ul{
+margin: 0px 3px;
+display: inline;
+}
