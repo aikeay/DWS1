@@ -12,12 +12,18 @@ padding: 5px;
 /*---head style info---*/
 h1{
 color: #38281A;
+
 font-family: Tahoma, Futura, Arial;
 font-size: 40px;
 font-weight: bold;
+border-style: none;
+background-color:#A6774E;
+border-radius: 5px;
+width: 400px; 
 text-shadow: black 0.05em 0.05em 0.1em;
 text-align: center;
 margin: 20px auto;
+
 }
 
 h2{
@@ -47,7 +53,12 @@ padding:1px;
 border:1px double #021a40;
 border-radius: 10px;
 box-shadow: black 0.05em 0.05em 0.1em;
+opacity: .55;
 }
+
+img:hover {
+    opacity: 1.0;
+    }
 
 /*--- list style---*/
 ol{
