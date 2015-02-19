@@ -1,92 +1,135 @@
 /*---main style---*/
 body{
-background-color: #717343;
-border-style: solid;
-border-radius: 25px;
-width: 800px; 
-box-shadow: black 0.1em 0.1em;
-margin: 10px auto;
-padding: 5px;
-}
+	background-color: #717343;
+	border-style: solid;
+	border-radius: 3.125%;
+	width: 90%; 
+	box-shadow: black 0.1em 0.1em;
+	margin: 1.2% auto;
+	padding: .625%;
+	background-image: url("../images/armored2.gif");
+    background-repeat: repeat-x;
+    background-position: top;	
+	}
 
 /*---head style info---*/
 h1{
-color: #38281A;
-
-font-family: Tahoma, Futura, Arial;
-font-size: 40px;
-font-weight: bold;
-border-style: none;
-background-color:#A6774E;
-border-radius: 5px;
-width: 400px; 
-text-shadow: black 0.05em 0.05em 0.1em;
-text-align: center;
-margin: 20px auto;
-
-}
+	color: #38281A;
+	font-family: Tahoma, Futura, Arial;
+	font-size: 2.500em;
+	font-weight: bold;
+	border-style: none;
+	background-color:#A6774E;
+	border-radius: .625%;
+	height: 6.875%;
+	width: 50%; 
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin: 2.5% auto;
+	}
 
 h2{
-color: #38281A;
-font-family: Calibri, Myriad, Arial;
-font-weight: bold;
-padding-left: 20px;
-}
+	color: #38281A;
+	font-family: Calibri, Myriad, Arial;
+	font-weight: bold;
+	padding-left: 5%;
+	}
 
 h3{
-color: #38281A;
-font-family: Calibri, Myriad, Arial;
-font-weight: bold;
-padding-left: 20px;
-}
+	color: #38281A;
+	font-family: Calibri, Myriad, Arial;
+	font-weight: bold;
+	padding-left: 5%;
+	}
 
 /*--- paragraph style info---*/
 p{
-font-family: Geneva, Helvetica, Arial;
-color: #F2E1C2;
-text-indent: 15px
-}
+	font-family: Geneva, Helvetica, Arial;
+	color: #F2E1C2;
+	text-indent: 1.875%;
+	}
+	
+#footer{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4ddb4), color-stop(0%,#83c783), color-stop(33%,#52b152), color-stop(67%,#008a00), color-stop(83%,#005700), color-stop(100%,#002400)); /* Chrome,Safari4+ */
+	padding: 1.25%;
+	text-align: center;
+	}
+
+/*--- columns ---*/
+
+#columns1of2{
+	float: left;
+	height: 100%;
+	width: 46.875%;
+	margin: .625%;
+	padding-left: 1.25%;
+	clear: left;
+	}
+
+#columns2of2{
+	float: left;
+	height: 100%;
+	width: 46.875%;
+	margin: .625%;
+	padding-left: 1.25%;
+	clear: right;
+	background-image: url("../images/jeep5.jpg");
+    background-repeat: no-repeat;
+    background-size: 12.5% 10%;
+    background-position: center bottom;
+	}
+
 
 /*--- image style---*/
+
+
 img {
-padding:1px;
-border:1px double #021a40;
-border-radius: 10px;
-box-shadow: black 0.05em 0.05em 0.1em;
-opacity: .55;
-}
+	padding: .125%;
+	border: 1px double #021a40;
+	border-radius: 1.25%;
+	box-shadow: black 0.05em 0.05em 0.1em;
+	opacity: .55;
+	}
 
 img:hover {
     opacity: 1.0;
     }
 
+
+
 /*--- list style---*/
 ol{
-list-style-type: none;
+	list-style-type: none;
+	} 
+	
+li {
+
+    display: inline;
+	padding-left: 6%;
+	
 }
 
 ul{
-list-style-type: none;
-display: block; 
-}
+	list-style-type: none; 
+	}
 
 /*--- link info---*/
 a{
-font-family: "Roboto", Arial;
-}
+	font-family: "Roboto", Arial;
+	}
 
 a:link{
-color: #333;
-}
+	color: #333;
+	}
 
 a:visited{
-color: #333;
-}
+	color: #333;
+	}
 
 a:hover{
-color: #0D0D0D;
-}
+	color: #0D0D0D;
+	}
 
 a:active{
-color: #0D0D0D;
-}
+	color: #0D0D0D;
+	}
