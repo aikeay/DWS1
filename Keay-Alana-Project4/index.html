@@ -72,18 +72,18 @@
 	</table>
   </article>
  <div id="Join">
-		<form id="event" action="http://example.com/join.php" method="post">
+		<form action="http://example.com/join.php" method="post">
 		  <fieldset>
 		  <legend>Join Event</legend><br/>
-		<label id="title" for="event">Your name</label><br/>
+		<label class="title">Your name</label>
 		<input type="text" name="your name"
 					  id="name" required="required"><br/>
-		 <label id="title" for="event">Your email</label><br/>
+		 <label class="title">Your email</label>
 		 <input type="email" name="Your email"
 				id="email"><br/>
 		 </fieldset>
 		 <fieldset>
-		  <label id="title" for="Event Choice">Event Choice</label><br>
+		  <label class="title">Event Choice</label><br>
 		  <select name="Event Choice">
 		  <option value="08-10 July 2015 3 Day Rubicon Tour" >08-10 July 2015 3 Day Rubicon Tour</option>
 		  <option value="07-09 August 2015 Jeep Jamboree USA" >07-09 August 2015 Jeep Jamboree USA</option>
@@ -93,19 +93,21 @@
 			</select>
 		 </fieldset>
 		 <fieldset>
-		 <label id="title">What type of vehicle would you be driving?<br>
-			<input type="radio" name="rubicon">Rubicon<br>
-  			<input type="radio" name="jeep">Jeep<br>
-  			<input type="radio" name="other">Other<br>
+		 <label class="title">What type of vehicle would you be driving?</label><br>
+			<input type="radio" name="vehicle">Rubicon<br>
+  			<input type="radio" name="vehicle">Jeep<br>
+  			<input type="radio" name="vehicle">Other<br>
 		 </fieldset>
 		<fieldset>
-		<label id="title" for="comments?">Do you have any other questions or comments?<br>
+		<label class="title">Do you have any other questions or comments?</label><br>
 		<textarea name="comments">Enter your comments .. </textarea>
 		</fieldset>
 		<div id="submit">
 		  <input type="submit"
-				value="Sumbit"/>
-	   </div>	
+				value="Submit"/>
+	   </div>
+	   </form>
+	</div>   	
   <!-- end of content -->
   <!-- start of images --> 
   <aside>

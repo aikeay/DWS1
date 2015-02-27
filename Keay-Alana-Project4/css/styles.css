@@ -115,7 +115,7 @@ table th{
 
 /*--- form style---*/
 #Join{
-	width:350px;
+	width:500px;
 	margin:20px auto;
 	}
 
@@ -130,11 +130,11 @@ legend{
 	color: #030303;
 	float: left;
 	width: 150px;
-	}
+	clear: left;
+	}	
 	
 #title{
 	font-size: 15px;
-	float: left;
 	width: 150px;
 	clear: left;
 	}
@@ -157,8 +157,8 @@ input:hover{
 #submit{
 	color :#fff;
 	padding:5px;
-	margin-top:10px;
-	text-align: center
+	margin-top: 10px;
+	text-align: center;
 	}
 	
 
